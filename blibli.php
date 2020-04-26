@@ -1,4 +1,7 @@
 <?php
+
+date_default_timezone_set("Asia/Jakarta");
+
 echo  PHP_EOL;
 echo "Create by Kepin Ganteng". PHP_EOL;
 echo "mavin.pro". PHP_EOL;
@@ -43,3 +46,5 @@ function buat($email,$pass){
 	 print_r($result);
 
 }
+
+?>
